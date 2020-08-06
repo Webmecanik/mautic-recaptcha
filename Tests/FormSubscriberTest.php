@@ -18,7 +18,7 @@ use PHPUnit_Framework_MockObject_MockBuilder;
 use Symfony\Component\EventDispatcher\EventDispatcherInterface;
 use Mautic\FormBundle\Event\FormBuilderEvent;
 
-class FormSubscriberTest extends \PHPUnit_Framework_TestCase
+class FormSubscriberTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * @var PHPUnit_Framework_MockObject_MockBuilder|RecaptchaIntegration

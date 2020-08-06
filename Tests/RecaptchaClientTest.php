@@ -13,7 +13,7 @@ use Mautic\PluginBundle\Helper\IntegrationHelper;
 use MauticPlugin\MauticRecaptchaBundle\Integration\RecaptchaIntegration;
 use MauticPlugin\MauticRecaptchaBundle\Service\RecaptchaClient;
 
-class RecaptchaClientTest extends \PHPUnit_Framework_TestCase
+class RecaptchaClientTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * @var PHPUnit_Framework_MockObject_MockBuilder|IntegrationHelper
